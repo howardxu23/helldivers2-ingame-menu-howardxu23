@@ -1,8 +1,8 @@
 # Helldivers2 Public Menu
-~~This project has been discontinued and will no longer be updated.~~
+~~This project has been discontinued and will no longer be updated.~~<br>
 WIP status, do not expect good progress however
 
-orginal text:
+Original text:<br>
 This menu is free and it is made with everyone's work.<br>
 If you continue this project, please do not claim it as your work.<br>
 Credit everyone who contributed to the menu. The menu wouldn't have existed without them.
