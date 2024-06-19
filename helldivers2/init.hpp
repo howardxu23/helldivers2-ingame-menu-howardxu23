@@ -11,7 +11,8 @@
 #include "include/D3D11Window.hpp"
 #include "include/Hooking.hpp"
 #include "funchook.h"
-#include "bypass.h"
+//disabled due to non-fucntioning bypass
+//#include "bypass.h"
 
 using namespace DX11_Base;
 using namespace GameHooking;
@@ -37,8 +38,8 @@ void OnHook(LPVOID lpParam)
     //Init file manager
     g_FileManager.Init();
 
-    //Bypass
-    g_Bypass.Patch();
+    //Bypass(removed for now)
+    //g_Bypass.Patch();
 
     int nDelay = g_FileManager.Config["DLLDelay"].is_number_integer() ? g_FileManager.Config["DLLDelay"].get<int>() : 0;
     if (nDelay < 0)

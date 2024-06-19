@@ -118,6 +118,7 @@ void LoadWeaponThread(LPVOID Param)
         string strWeaponDamageIDName = (char*)(WeaponDamageIDNameAddress);
         do
         {
+            //assigning the names to each ID
             WeaponDamageIDNameList->push_back(strWeaponDamageIDName.substr(15));
             WeaponDamageIDNameOffset += strWeaponDamageIDName.length() + 1;
             strWeaponDamageIDName = (char*)(WeaponDamageIDNameAddress + WeaponDamageIDNameOffset);

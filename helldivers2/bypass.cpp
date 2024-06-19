@@ -8,6 +8,7 @@
 #include <fstream>
 #include "libs/xorstr.hpp"
 
+//NO LONGER WORKING SINCE PATCH 1.000.400
 using namespace std;
 
 bypass g_Bypass;

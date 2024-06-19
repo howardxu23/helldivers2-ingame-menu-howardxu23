@@ -345,7 +345,6 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="bypass.cpp" />
     <ClCompile Include="config.cpp" />
     <ClCompile Include="features.cpp" />
     <ClCompile Include="features\Data.cpp" />
@@ -374,7 +373,6 @@
     <ClCompile Include="src\Process.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="bypass.h" />
     <ClInclude Include="config.h" />
     <ClInclude Include="features.h" />
     <ClInclude Include="funchook.h" />

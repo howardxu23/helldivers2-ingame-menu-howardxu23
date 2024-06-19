@@ -10,7 +10,7 @@ Credit everyone who contributed to the menu. The menu wouldn't have existed with
 
 ### Compile Instruction
 1) Download and compile Minhook then put `libMinHook.x64.lib` in `libs/MinHook/libMinHook.x64.lib` minhook link: https://github.com/TsudaKageyu/minhook
-2) Build the project as `helldiver2_public`
+2) Build the project as `helldiver2_public`(REMEBER TO BATCH BUILD IN VISUAL STUDIO)
 
 ### Screenshots
 ![Screenshot1](media/screenshot1.png)

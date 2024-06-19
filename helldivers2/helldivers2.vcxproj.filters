@@ -117,9 +117,6 @@
     <ClCompile Include="features\Misc.cpp">
       <Filter>Source Files\features</Filter>
     </ClCompile>
-    <ClCompile Include="bypass.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="memory.h">
@@ -208,9 +205,6 @@
     </ClInclude>
     <ClInclude Include="include\Process.h">
       <Filter>Header Files\Class</Filter>
-    </ClInclude>
-    <ClInclude Include="bypass.h">
-      <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
